@@ -12,10 +12,11 @@ function allTasks(){
 
     let allList = document.querySelectorAll(".list");
     if(allList.length > 0){
+        clearButton.style.pointerEvents = "auto";
         todoList.style.marginTop = "20px";
-        return
+        return;
     }
-    clearButton.style.pointerEvents = "auto";
+    clearButton.style.pointerEvents = "none";
     todoList.style.marginTop = "0px";
 
 }
