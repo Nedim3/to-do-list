@@ -8,13 +8,21 @@
 body {
   background-color: #e3f2fd;
 }
+.date-display {
+  text-align: center;
+  font-size: 26px;
+  color: #333;
+  margin-top: 140px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
 .container{
     max-width: 480px;
     position: relative;
     width: 100%;
     border-radius: 8px;
     padding: 25px;
-    margin: 85px auto 0;
+    margin: 15px auto 0;
     background-color: #fff;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
